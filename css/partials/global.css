@@ -1,0 +1,82 @@
+
+/*Global Classes*/
+
+.title-text{
+    font: normal bold 20px 72px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+    text-align: left;
+}
+
+/*Buttons*/
+.button{
+    padding: 0.8rem 2.2rem;
+    font: normal 500 16px/20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.button.primary-button{
+    background-color: #4458ef;
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background 0.6s ease;
+    box-shadow: #797d8d;
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.primary-button::after{
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    background: #4458ef ;
+    content: '';
+    z-index: -1;
+    border: 4px;
+
+}
+
+.button.secondary-button{
+    background-color: #4458ef;
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background 0.6s ease;
+    box-shadow: #797d8d;
+}
+
+.button.secondary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.secondary-button::after{
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    background: #4458ef ;
+    content: '';
+    z-index: -1;
+    border: 4px;
+}
+
+p.para{
+    color: black;
+    font: normal 500 16px/25px;
+    font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+} 
